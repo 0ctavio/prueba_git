@@ -1,0 +1,18 @@
+1. Abrimos la terminal en la carpeta donde queramos iniciar el git.
+2. Iniciamos el repositorio poniendo el comando: git init
+3. Se inicializa un repositorio vacio
+4. Para ver el estado del repositorio se pone: git status
+5. Para añadir los archivos que quiera pongo el comando:
+git add "nombre_del_archivo.extension"
+
+6. Para comitear los archivos se pone el comando: git commit -m 
+
+7. Para poner el servidor remoto, primero creamos el servidor en gitHub y luego en la consola ponermos:
+git remote add origin "url_del_gitHub"
+
+
+
+
+git remote (lista tu repositorio local con tus repositorios remotos)
+
+git remote-v (lista el repositorio local con los respositorios remotos pero listandolo con la url)
