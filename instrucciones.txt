@@ -11,8 +11,33 @@ git add "nombre_del_archivo.extension"
 git remote add origin "url_del_gitHub"
 
 
-
-
 git remote (lista tu repositorio local con tus repositorios remotos)
 
 git remote-v (lista el repositorio local con los respositorios remotos pero listandolo con la url)
+
+
+
+:wq (guarda y sale del archivo)
+
+los simbolos "+" significan que los archivos se han sumado.
+los símbolos "-" los que se han quitado
+
+
+
+
+NOTA:
+
+El orden de ejecución de los comandos sería el siguiente:
+
+- add
+- commit (podemos comitear más de una vez pero push lo hacemos solo una vez al día si estamos haciendo algo propio o cada vez que alguien lo necesite).
+- pull
+- push
+
+
+Para clonar trabajos de otra gente en mi PC.
+
+1. Copio la direccion del gitHub con el comando: git clone "url_repositorio_quiero_clonar"
+
+NOTA: hacer el comando ../ para irse una carpeta hacia atrás antes de hacer el clone.
+
